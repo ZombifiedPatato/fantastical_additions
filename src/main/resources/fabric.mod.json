@@ -6,7 +6,7 @@
   "name": "Fantastical Additions",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "zombified_patato"
+    "zombified_potato"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,12 +14,12 @@
   },
 
   "license": "MIT",
-  "icon": "assets/zombified_patato/icon.png",
+  "icon": "assets/fantastical_additions/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.ZombifiedPatato.fantastical_additions.Main"
+      "com.github.zombifiedpotato.fantastical_additions.Main"
     ]
   },
   "mixins": [
