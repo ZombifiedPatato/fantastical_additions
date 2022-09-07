@@ -1,6 +1,10 @@
 package com.github.zombifiedpotato.fantastical_additions;
 
+import com.github.zombifiedpotato.fantastical_additions.block.ModBlocks;
 import com.github.zombifiedpotato.fantastical_additions.effect.ModEffects;
+import com.github.zombifiedpotato.fantastical_additions.entity.ModEntities;
+import com.github.zombifiedpotato.fantastical_additions.item.ModItems;
+import com.github.zombifiedpotato.fantastical_additions.particle.ModParticles;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,5 +23,9 @@ public class Main implements ModInitializer {
 		// Proceed with mild caution.
 		LOGGER.info("fantastical_additions is starting! Are you ready for magic?");
 		ModEffects.registerEffects();
+		ModBlocks.registerBlocks();
+		ModEntities.registerModEntities();
+		ModItems.registerModItems();
+		ModParticles.registerModParticles();
 	}
 }
