@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "fantastical_additions:block/dwarven_dynamite_block_top",
+    "bottom": "fantastical_additions:block/dwarven_dynamite_block_bottom",
+    "side": "fantastical_additions:block/dwarven_dynamite_block_side"
+  }
+}
