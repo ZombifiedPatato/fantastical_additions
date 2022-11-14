@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+          [
+            {
+              "item": "minecraft:gunpowder"
+            },
+            {
+              "tag": "minecraft:flowers"
+            },
+            {
+              "tag": "minecraft:saplings"
+            },
+            {
+              "item": "minecraft:lapis_lazuli"
+            }
+          ],
+  "result": {
+    "item": "fantastical_additions:fairy_powder",
+    "count": 3
+  }
+}
